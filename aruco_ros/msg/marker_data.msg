@@ -1,0 +1,4 @@
+std_msgs/Bool ack_detect
+std_msgs/Float32 marker_perimeter
+std_msgs/Int32 marker_id
+geometry_msgs/Point marker_center
