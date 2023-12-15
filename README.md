@@ -1,4 +1,4 @@
- **First assignment of Experimental Robotics Laboratory**
+
 ### Team Members
 | name | surname | ID |
 | :------------ |:---------------:| :-----:|
