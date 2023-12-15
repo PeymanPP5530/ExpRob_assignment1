@@ -23,7 +23,7 @@ The project progresses to the real ROSbot deployed in a laboratory setting. The 
 
 The IDs of the markers hold specific instructions for the robot:
 
-- Marker 11: Instructs the robot to rotate until it locates marker 12, then move towards and reach it.
+- Marker 11: Instruct the robot to rotate until it locates marker 12, then move towards and reach it.
 - Marker 12: Directs the robot to rotate until it identifies marker 13, then moves towards and reaches it.
 - Marker 13: Guides the robot to rotate until it detects marker 15, then moves towards and reaches it.
 - Marker 15: Signals the completion of tasks. The robot stops once marker 15 is found.
@@ -39,6 +39,41 @@ Please note that the condition for **reaching** a marker involves ensuring that 
 - Real Robot: A physical [ROSbot 2](https://husarion.com/manuals/rosbot/ "ROSbot 2") is employed for real-world testing.
 
 #### Getting Started:
+
+The simulation requires the following steps for running:
+
+- A ROS Noetic ([ROS Noetic installation instructions](http://wiki.ros.org/noetic/Installation:// "ROS Noetic installation instructions"))
+- Run the ROS core by executing this command in terminal:
+````shell
+roscore
+````
+- Creat a ROS worksapace:
+````shell
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+catkin_make
+````
+- Source the new setup.*sh file:
+````shell
+source ~/catkin_ws/devel/setup.bash
+````
+- Move to the `src` folder of the workspace:
+````shell
+cd ~/catkin_ws/src   
+````
+- Clone the package of of the assignment:
+````shell
+git clone https://github.com/PeymanPP5530/ExpRob_assignment1
+````
+- Then:
+````shell
+cd ~/catkin_ws 
+catkin_make
+````
+- Now, it is possible to run the whole project by running the launch file:
+````shell
+roslaunch assignment1_experimental exp1_fix_cam.launch 
+````
 
 
 
