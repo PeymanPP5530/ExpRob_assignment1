@@ -2,7 +2,7 @@
 ### Team Members
 | name | surname | ID |
 | :------------ |:---------------:| :-----:|
-|  Peyman | Peyvandipour | 5573284 |
+|  Peyman | Peyvandi Pour | 5573284 |
 | Arghavan   | Dalvand         |   5606362 |
 | Nafiseh   | Monavari        |    5174160 |
 ### Project Description
