@@ -1,5 +1,5 @@
-## First assignment of Experimental Robotics Laboratory
-### Team members
+ **First assignment of Experimental Robotics Laboratory**
+### Team Members
 | name | surname | ID |
 | :------------ |:---------------:| :-----:|
 |  Peyman | Peyvandipour | 5573284 |
