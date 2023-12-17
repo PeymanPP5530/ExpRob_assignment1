@@ -84,3 +84,6 @@ https://github.com/PeymanPP5530/ExpRob_assignment1/assets/120266362/42a2cf75-820
 ### Possible Improvements:
 #### Enhanced Path Planning for Optimal Navigation:
 Consider integrating a robust path planning system into the robot's navigation algorithm. This addition would significantly improve the efficiency of the robot's movement by allowing it to identify and follow more optimal paths through various environments. By employing advanced path planning techniques, the robot can navigate more efficiently, potentially reducing travel time and optimizing its movements around obstacles or complex terrains.
+
+#### Refinement of Aruco Marker Reading Algorithm:
+During testing scenarios, issues arose when the robot attempted to read Aruco markers placed at a significant distance. These errors affected the robot's accuracy in interpreting the markers' information. To address this challenge, refining and fine-tuning the marker reading algorithm is essential. Enhancing the algorithm's capabilities will enable the robot to detect and interpret Aruco markers more accurately, even when they are situated farther away. Also, improving the detection algorithm's robustness and accuracy will enhance the robot's ability to effectively utilize markers for navigation and decision-making processes.
