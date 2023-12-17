@@ -74,6 +74,40 @@ catkin_make
 ````shell
 roslaunch assignment1_experimental exp1_fix_cam.launch 
 ````
+
+
+### Explanation of the Code
+
+The Python script is designed to control a robot's movement based on marker data received from the `/marker_data` topic and camera information from `/camera/color/camera_info` topic. Here's an explanation of the code structure and its functionalities:
+
+#### Overview
+- The script initializes a ROS node named `robot_controller`.
+- It subscribes to topics such as `/marker_data` and `/camera/color/camera_info` to receive marker information and camera data, respectively.
+- Publishers for `/cmd_vel` and `/output/image_raw/compressed` topics are set up to control the robot's movement and publish image data, respectively.
+
+#### Class `robot_controller`
+- This class contains methods to handle different robot actions based on marker data and camera information.
+- `camera_center_callback`: Retrieves the center coordinates of the camera.
+- `reached`: Stops the robot's movement upon reaching a marker, removes the marker from the list, and displays a confirmation message.
+- `approche`: Initiates the robot's forward movement towards the targeted marker.
+- `allign`: Adjusts the robot's orientation to align with the marker's position.
+- `search`: Rotates the robot to locate the marker.
+- `marker_data_callback`: Receives marker data and updates the robot's marker-related information.
+
+#### Control Loop `control_loop`
+- The main loop executes until all markers in `self.marker_list` are reached.
+- It checks the current marker ID and executes the appropriate action (`reached`, `approche`, `allign`, or `search`) based on marker detection and alignment.
+- The loop ensures the robot proceeds through the marker list by adjusting its movement and orientation until all markers are reached.
+
+#### Execution Flow in `main`
+- Waits for other ROS nodes to initialize properly before creating and spinning the `robot_controller` instance.
+- A separate thread is created to manage ROS callbacks (`spin_thread`).
+- Initiates the control loop after a short delay to ensure proper initialization.
+
+This code effectively controls the robot's movements based on marker data received, aiming to reach specified markers while adjusting its orientation and movements accordingly. Further improvements can be made for better efficiency and robustness in marker detection and navigation.
+
+
+
 #### Flowchart:
 ![flowchart](https://github.com/PeymanPP5530/ExpRob_assignment1/assets/120266362/7f889902-b8eb-46d0-8176-10e06c2a924a)
 
