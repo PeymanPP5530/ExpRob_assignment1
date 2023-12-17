@@ -74,6 +74,9 @@ catkin_make
 ````shell
 roslaunch assignment1_experimental exp1_fix_cam.launch 
 ````
+#### Flowchart:
+![flowchart](https://github.com/PeymanPP5530/ExpRob_assignment1/assets/120266362/7f889902-b8eb-46d0-8176-10e06c2a924a)
+
 
 #### video:
 
