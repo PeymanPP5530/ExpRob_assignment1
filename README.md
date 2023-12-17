@@ -23,9 +23,9 @@ The project progresses to the real ROSbot deployed in a laboratory setting. The 
 
 The IDs of the markers hold specific instructions for the robot:
 
-- Marker 11: Instruct the robot to rotate until it locates marker 12, then move towards and reach it.
-- Marker 12: Directs the robot to rotate until it identifies marker 13, then moves towards and reaches it.
-- Marker 13: Guides the robot to rotate until it detects marker 15, then moves towards and reaches it.
+- Marker 11: Directs the robot to rotate until it locates marker 12, then moves towards and reaches it.
+- Marker 12: Directs the robot to rotate until it locates marker 13, then moves towards and reaches it.
+- Marker 13: Directs the robot to rotate until it locates marker 15, then moves towards and reaches it.
 - Marker 15: Signals the completion of tasks. The robot stops once marker 15 is found.
 
 ------------
