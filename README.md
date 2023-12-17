@@ -87,3 +87,5 @@ Consider integrating a robust path planning system into the robot's navigation a
 
 #### Refinement of Aruco Marker Reading Algorithm:
 During testing scenarios, issues arose when the robot attempted to read Aruco markers placed at a significant distance. These errors affected the robot's accuracy in interpreting the markers' information. To address this challenge, refining and fine-tuning the marker reading algorithm is essential. Enhancing the algorithm's capabilities will enable the robot to detect and interpret Aruco markers more accurately, even when they are situated farther away. Also, improving the detection algorithm's robustness and accuracy will enhance the robot's ability to effectively utilize markers for navigation and decision-making processes.
+
+These proposed enhancements aim to elevate the robot's navigation capabilities and accuracy in marker-based guidance. By implementing advanced path planning techniques and refining the marker detection algorithm, the robot can navigate more effectively, ensuring smoother movements and improved decision-making in diverse and challenging environments.
