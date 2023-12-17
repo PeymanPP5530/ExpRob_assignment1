@@ -81,4 +81,6 @@ roslaunch assignment1_experimental exp1_fix_cam.launch
 https://github.com/PeymanPP5530/ExpRob_assignment1/assets/120266362/42a2cf75-820c-40d7-8585-5ade02851887
 
 
-### Possible Improvements
+### Possible Improvements:
+#### Enhanced Path Planning for Optimal Navigation:
+Consider integrating a robust path planning system into the robot's navigation algorithm. This addition would significantly improve the efficiency of the robot's movement by allowing it to identify and follow more optimal paths through various environments. By employing advanced path planning techniques, the robot can navigate more efficiently, potentially reducing travel time and optimizing its movements around obstacles or complex terrains.
