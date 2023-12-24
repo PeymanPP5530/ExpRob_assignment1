@@ -111,6 +111,12 @@ This code effectively controls the robot's movements based on marker data receiv
 #### Flowchart:
 ![flowchart](https://github.com/PeymanPP5530/ExpRob_assignment1/assets/120266362/7f889902-b8eb-46d0-8176-10e06c2a924a)
 
+### Simulation:
+
+https://github.com/PeymanPP5530/ExpRob_assignment1/assets/28688419/96c602d4-7f3a-47b3-a8e0-1a2975402fdc
+
+
+
 
 #### video:
 
